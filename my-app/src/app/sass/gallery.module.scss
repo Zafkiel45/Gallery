@@ -1,0 +1,28 @@
+.containerImg {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem; 
+  color: #373737;
+  height: auto;
+  width: 100vw;
+  padding: 1.25rem;
+  align-items: center;
+  .containerImgs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    .imgs {
+      object-fit: cover;
+      border-radius: 5px;
+    }
+  }
+  .descriptionContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 1rem;
+    .descriptionText {
+      line-height: 1.5rem;
+    }
+  }
+}

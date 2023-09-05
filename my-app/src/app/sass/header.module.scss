@@ -1,0 +1,42 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  height: auto;
+  width: 100vw;
+  background-color: transparent;
+  z-index: 1;
+  .list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    .button {
+      padding: 0.5rem 2rem;
+      border-radius: 1.25rem;
+      border: none;
+      font-size: 1rem;
+      text-align: center;
+      &:active {
+        position: relative;
+        bottom: -2px;
+      }
+    }
+  }
+}
+
+
+.a {
+  text-decoration: none;
+  color: white;
+  &:visited {
+    color: white;
+  }
+  &:link {
+    color: white;
+  }
+  &:hover {
+    color: white;
+  }
+}
