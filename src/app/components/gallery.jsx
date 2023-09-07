@@ -17,7 +17,7 @@ export const GalleryImage = ({ tags }) => {
       <GalleryText/>
         <div className={styles.containerImgs}>
           {imagensFilted.map((element) => {
-            return <figure className='figure'>
+            return <figure key={element.id} className='figure'>
                     <Image 
                       key={element.id}
                       src={element.src} 
