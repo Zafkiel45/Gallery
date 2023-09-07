@@ -8,7 +8,7 @@ import { GalleryText } from './galleryText'
 export const GalleryImage = ({ tags }) => {
 
   const imagensFilted = TagsElements.filter((item) => {
-    return tags === '' || item.description.includes(tags.toLowerCase())
+    return tags === '' || item.description.includes(tags)
   })
 
   return (
