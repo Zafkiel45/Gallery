@@ -27,6 +27,11 @@
 }
 
 
+@media screen and (max-width: 445px) {
+  .header {
+    display: none;
+  }
+}
 .a {
   text-decoration: none;
   color: white;

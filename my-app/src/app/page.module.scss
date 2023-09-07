@@ -6,8 +6,11 @@
   position: relative;
   width: 100vw;
   height: 800px;
-  object-fit: cover;
+  object-fit: contain;
   background-image: url('../../public/banner main.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   .title {
     position: absolute;
     top: 280px;
@@ -28,6 +31,19 @@
     }
     &::placeholder {
       color: rgba(255, 255, 255, 0.454);
+    }
+  }
+  // media screen 
+  @media screen and (max-width: 600px) {
+    .input {
+      width: 17.875rem;
+    }
+    .title {
+      position: absolute;
+      top: 280px;
+      color: white;
+      font-size: 2.3rem;
+      font-weight: 700;
     }
   }
 }

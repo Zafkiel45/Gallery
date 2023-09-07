@@ -1,0 +1,31 @@
+@media screen and (max-width: 1400px) {
+  .figure {
+    width: 25rem; 
+    height: 25rem;
+    position: relative;
+  }
+}
+@media screen and (max-width: 855px) {
+  .figure {
+    width: 18.75rem;
+    height: 18.75rem;
+  }
+}
+@media screen and (max-width: 655px) {
+  .figure {
+    width: 16.72rem;
+    height: 16.72rem;
+  }
+}
+@media screen and (max-width: 585px) {
+  .figure {
+    width: 25.72rem;
+    height: 16.72rem;
+  }
+}
+@media screen and (max-width: 430px) {
+  .figure {
+    width: 22.72rem;
+    height: 13.72rem;
+  }
+}

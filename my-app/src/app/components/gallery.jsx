@@ -4,6 +4,7 @@ import Image from 'next/image'
 import styles from '../sass/gallery.module.scss'
 import { TagsElements } from '../utils/imagem'
 import { GalleryText } from './galleryText'
+import '../sass/responsividade.scss'
 
 export const GalleryImage = ({ tags }) => {
 
@@ -16,7 +17,7 @@ export const GalleryImage = ({ tags }) => {
       <GalleryText/>
         <div className={styles.containerImgs}>
           {imagensFilted.map((element) => {
-            return <figure style={{width: '25rem', height: '25rem', position: 'relative'}}>
+            return <figure className='figure'>
                     <Image 
                       key={element.id}
                       src={element.src} 
