@@ -7,17 +7,20 @@ export const TagsElements = [
   {
     id: 0, 
     tag: ['paisagem', 'evento', 'torre'],
-    src: img0
+    src: img0,
+    description: 'paisagem exclusiva do evento limitado'
   }, 
   {
     id: 1,
     tag: ['torre', 'fontaine', 'paisagem'], 
     src: img1,
+    description: 'prisão da corte de fontaine com andares submersos'
   },
   {
     id: 2,
     tag: ['torre', 'fontaine', 'paisagem'], 
     src: img2,
+    description: 'prisão da corte de fontaine com andares submersos'
   },
   
 ]
